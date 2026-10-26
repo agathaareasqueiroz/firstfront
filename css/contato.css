@@ -59,6 +59,15 @@ article form:valid button {
     /* Desbloqueia cliques no elemento */
     pointer-events: all;
 }
-h3,h2 ,p{
+h3,h2,p{
     color: #ffff;
+}
+aside ul a {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+aside ul i {
+    font-size: 2rem;
 }
